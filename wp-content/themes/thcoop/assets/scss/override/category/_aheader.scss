@@ -1,0 +1,66 @@
+
+.headerimg {
+  overflow:hidden;
+  width:100%;
+  height:400px;
+  position:relative;
+
+  img {
+    position:absolute;
+
+    height:600px;
+    max-width:1980px;
+  }
+}
+
+/* POUR LE POSITIONNEMENT TITRE h1*/
+.rowh1 {
+  position:relative;
+  h1 {
+    padding-left:80px;
+    color:white;
+    opacity:0.3;
+
+    font-size:rem-calc(120);
+    position:absolute;
+    top:-90px;
+  }
+}
+
+
+
+
+
+
+
+@include breakpoint(medium only) {
+
+.row {
+
+  h1 {
+    font-size:rem-calc(100);
+    top:-80px;
+  }
+}
+
+}
+
+/*@media screen and (max-width: rem-calc(640)) */
+@include breakpoint(small only) {
+
+  .rowh1category {
+    position:relative;
+      background:#2d2d2d;
+    h1 {
+      text-align:center;
+      font-size:rem-calc(60);
+      position:static;
+      padding:0px;
+            padding-top:60px;
+    }
+  }
+
+
+
+
+}

@@ -1,0 +1,80 @@
+.mybutton {
+  background:#96c11f;
+  height:55px;
+  padding-left:60px;
+  padding-right:60px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:50px;
+
+  color:#fff;
+  font-size:rem-calc(24);
+
+  display:block;
+  max-width:270px;
+
+}
+
+.mybutton:hover {
+  background:#38a433;
+  color:#fff;
+}
+
+.mylittlebutton {
+  background:#96c11f;
+  height:40px;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:8px;
+  padding-bottom:10px;
+  border-radius:50px;
+
+  color:#fff;
+  font-size:rem-calc(18);
+
+  display:block;
+  max-width:190px;
+
+}
+
+.mylittlebutton:hover {
+  background:#38a433;
+  color:#fff;
+}
+
+
+.mybuttonblack {
+  background:#000;
+  height:55px;
+  padding-left:60px;
+  padding-right:60px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:50px;
+
+  color:#fff;
+  font-size:rem-calc(24);
+
+  display:block;
+  max-width:300px;
+}
+.mybuttonblack:hover {
+  background:grey;
+  color:#fff;
+
+}
+
+
+
+@include breakpoint(small only) {
+
+  .mybutton {
+    max-width:240px;
+    font-size: rem-calc(20);
+  }
+
+  .mybuttonblack {
+    max-width:240px;
+    font-size: rem-calc(20);
+  }
+}

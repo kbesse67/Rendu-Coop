@@ -1,0 +1,64 @@
+.homecoopheader {
+  background:url(../images/css/coopheaderbg.png);
+  padding-top:320px;
+  height:1189px;
+
+  top:-150px;
+
+
+  img{
+
+  }
+
+
+  h2 {
+    color:white;
+    margin-top:60px;
+    margin-bottom:60px;
+    line-height:60px;
+    font-weight:700;
+
+  }
+
+}
+
+
+
+
+@include breakpoint(medium only) {
+
+.homecoopheader {
+  margin-bottom:50px;
+  }
+
+}
+
+
+/*@media screen and (max-width: rem-calc(640)) */
+@include breakpoint(small only) {
+
+
+.homecoopheader {
+  padding-top:200px;
+  padding-bottom:80px;
+  height:900px;
+  margin-bottom:50px;
+
+
+  h2 {
+    line-height:60px;
+    text-align:center;
+  }
+
+
+
+
+  .mybutton {
+    text-align:center;
+    display:block;
+    width:250px;
+    margin:0 auto;
+  }
+}
+
+}
