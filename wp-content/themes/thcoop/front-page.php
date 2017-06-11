@@ -38,7 +38,7 @@ get_header(); ?>
 <div class="row">
 	<div class="large-4 medium-6 small-12 columns colonnegauche">
 
-		<h2 class=" wow slideInLeft">
+		<h2>
 			Projet initié par
 			la ville de Strasbourg
 			Prévu pour 2018

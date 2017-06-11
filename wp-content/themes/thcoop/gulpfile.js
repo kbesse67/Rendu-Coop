@@ -64,8 +64,8 @@ var PATHS = {
     // Motion UI
     'assets/components/motion-ui/motion-ui.js',
 
-    // Library externe)
-    'assets/components/wow/dist/wow.min.js',
+    // Include your own custom scripts (located in the custom folder)
+    'assets/javascript/custom/*.js',
   ],
   phpcs: [
     '**/*.php',
