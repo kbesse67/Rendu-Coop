@@ -2,7 +2,7 @@
 /*
 Template Name: Category
 */
- */
+
 
 get_header(); ?>
 <div class="headerimg" id="headerimg">

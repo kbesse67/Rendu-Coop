@@ -17,7 +17,7 @@ get_header(); ?>
 
 
 
-<div class="row theformulaire">
+<form class="row theformulaire">
 	<div class="large-4 medium-12 small-12 columns">
 		<h2>Vous souhaitez nous proposer un projet ?</h2>
 		<p>Vous êtes un investisseur, un artisan, un designer, graphiste, un artiste ? Ou vous disposez d'un projet innovant ?
@@ -25,6 +25,7 @@ get_header(); ?>
 	La coop dispose encore de places libres pour vos projets</p>
 	</div>
 	<div class="large-4 medium-6 small-12 columns">
+
 		<label for="name">Nom*</label>
 		<input type="text" name="name" id="name" placeholder="Nom" value="" />
 		<label for="forname">Prénom*</label>
@@ -50,5 +51,5 @@ get_header(); ?>
 		</div>
 
 	</div>
-</div>
+</form>
 <?php get_footer();

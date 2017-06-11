@@ -14,51 +14,43 @@ get_header(); ?>
 </div>
 
 
+<section class="fablab">
+<div class="row">
+	<div class="large-4 medium-6 small-12 columns colonnegauche">
 
-<section class="derniersarticles">
-
-<div class="row rowarticleentreprise">
-    <?php
-    $args = array(
-    'post_type'=> 'entreprise',
-    'posts_per_page' => 4,
-    'orderby' => 'date',
-    'order' => 'DESC'
-    );
-    $wp_query = new WP_Query( $args );
-    while ( $wp_query->have_posts() ) :
-    $wp_query->the_post(); ?>
-
-  <article class="large-4 large-offset-1 medium-8 medium-offset-2 small-10 small-offset-1 columns end ">
-    <div class="containerimgarticle">
-    <?php
-    if ( has_post_thumbnail() ) {
-      the_post_thumbnail();}
-    ?>
-    </div>
-    <h2><?php the_title(); ?></h2>
-    <h4><?php the_field('sous-titre'); ?></h4>
-    <p>
-       <?php the_excerpt(); ?>
-    </p>
-		<a href="<?php the_permalink(); ?>" class="mylittlebutton">Je découvre</a>
-    <a href="<?php the_field('lien-facebook'); ?>"><img src="wp-content/themes/thcoop/assets/images/icons/facebook.png"></a>
-    <a href="<?php the_field('lien-twitter'); ?>"><img src="wp-content/themes/thcoop/assets/images/icons/twitter.png"></a>
-    <a href="mailto:<?php the_field('mail'); ?>"><img src="wp-content/themes/thcoop/assets/images/icons/mail.png"></a>
-  </article>
-  <?php endwhile;
-  wp_reset_query();
-        ?>
+		<h2>
+Découverte du FABLAB
+		</h2>
+		<p>
+			Mots par Yves Burr <br>
+			Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.
+		</p>
+	</div>
+	<div class="large-4 medium-6 small-12 columns colonnecenter">
+		<img src="wp-content/themes/thcoop/assets/images/icons/cafemusical_white.png" alt="Café musicale" class="icons"  />
+		<h3>Café Musicale</h3>
+		<p>Lorem Ipsum est simplement du faux texte employé dans la composition</p>
+		<img src="wp-content/themes/thcoop/assets/images/icons/city-hall_white.png" alt="Endroit pour vous" class="icons" />
+		<h3>Un endroit pour vous</h3>
+		<p>Lorem Ipsum est simplement du faux texte employé dans la composition</p>
+		<img src="wp-content/themes/thcoop/assets/images/icons/praying_white.png" alt="Café musicale" class="icons" />
+		<h3>Mains dans la main</h3>
+		<p>Lorem Ipsum est simplement du faux texte employé dans la composition</p>
+	</div>
+	<div class="large-4 medium-12 small-12 columns colonnedroite">
+			<img src="wp-content/themes/thcoop/assets/images/bandemagnetique.png" alt=""  class="bandeimage" />
+	</div>
 </div>
 
-<div class=" row pnavigation2">
-<h2>
-	<div class="nav-previous left"><?php previous_posts_link('<span class="meta-nav">-</span> Articles précedents') ?></div> <!-- Créer une pagination -->
-	<div class="nav-next right"><?php next_posts_link('Articles suivants') ?></div>
-</h2>
-</div>
+<div class="row">
+	<div class="large-12 medium-8 small-centered columns">
+			<a href="<?php the_permalink(); ?>" class="mybutton text-center">Je découvre</a>
+	</div>
 
+</div>
 </section>
+
+
 
 
 
