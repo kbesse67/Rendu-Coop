@@ -24,31 +24,10 @@ get_header(); ?>
 	La coop dispose encore de places libres pour vos projets</p>
 	</div>
 	<div class="large-4 medium-6 small-12 columns">
-		<label for="name">Nom*</label>
-		<input type="text" name="name" id="name" placeholder="Nom" value="" />
-		<label for="forname">Prénom*</label>
-		<input type="text" name="forname" id="forname" placeholder="Prénom" value="" />
-		<label for="vousetes">Vous êtes</label>
-		<select name="vousetes" id="vousetes">
-            <option value="1">Un artisan</option>
-            <option value="2">Un entrepreneur </option>
-            <option value="3">Un curieux</option>
-    </select>
+
 	</div>
 	<div class="large-4 medium-6 small-12 columns">
-		<label for="mail">E-mail*</label>
-		<input type="text" name="mail" id="mail" placeholder="E-mail" value="" />
-		<label for="forname">Téléphone</label>
-		<input type="text" name="telephone" id="telephone" placeholder="Télephone" value="" />
-		<label for="vousetes">Votre ville</label>
-		<input type="text" name="ville" id="ville" placeholder="Votre ville" value="" />
-	</div>
-	<div class="row">
-		<div class="large-4 large-offset-4 columns end">
-				<input type="submit" name="" value="Envoyer" class="mylittlebutton submit text-center">
-		</div>
 
 	</div>
 </div>
-
 <?php get_footer();

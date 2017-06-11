@@ -1,43 +1,16 @@
-.theformulaire {
-  padding-top:170px;
-  padding-bottom:170px;
-  h2 {
-    font-weight:700;
-  }
-  div {
-    padding-top:15px;
-  }
-
-  div:first-child {
-    padding:0;
-    padding-left:20px;
-    padding-right:20px;
-  }
-
-  .submit {
-    border-radius:50px;
-    border-width:0;
-    margin:0 auto;
-    display: block;
-  }
-}
+.theformulaire {}
 
 
 
 
 @include breakpoint(medium only) {
 
-  .theformulaire {
-    div:first-child {text-align: center;}
-  }
 }
 
 
 /*@media screen and (max-width: rem-calc(640)) */
 @include breakpoint(small only) {
 
-  .theformulaire {
-    div:first-child {text-align: center;}
-  }
+
 
 }
