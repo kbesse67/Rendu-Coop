@@ -31,11 +31,12 @@
 	<header class="topheader">
 
 		<hr>
-	<a href="http://localhost/lacoop/">
-		<img src="wp-content/themes/thcoop/assets/images/logo.png" alt="<?php bloginfo ?>" class="logocoop"></a>
+	<a href="http://localhost/lacoop/" class="wow fadeInLeft" data-wow-delay="0.2s">
+		<img src="wp-content/themes/thcoop/assets/images/logo.png" alt="<?php bloginfo ?>" class="logocoop">
+	</a>
 
 			<!-- ICON MENU -->
-			<div class="menu wow fadeInLeft" onclick="openNav()">
+			<div class="menu " onclick="openNav()">
 				<img src="wp-content/themes/thcoop/assets/images/menu.png" alt="" >
 			</div>
 			<!-- DRAPEAUX -->

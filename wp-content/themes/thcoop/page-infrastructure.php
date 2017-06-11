@@ -6,24 +6,24 @@ Template Name: Infrastructure
 get_header(); ?>
 
 <section class="homemenuiserie">
-	<div class="row expanded">
+	<div class="row expanded" >
 		<div class="large-4 medium-12 small-12 columns menuiserie sectionmenuiserie">
-			<h2>Menuiserie</h2>
-			<h3>Menuiserie</h3>
-			<p>m est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500, quand un peintre an</p>
-			<a href="http://localhost/lacoop/?page_id=50" class="mylittlebutton">Je découvre</a>
+			<h2 class="wow fadeInUp" data-wow-delay="0.4s">Menuiserie</h2>
+			<h3 >Menuiserie</h3>
+			<p class="wow fadeInUp" data-wow-delay="0.6s">m est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500, quand un peintre an</p>
+			<a href="http://localhost/lacoop/?page_id=50" class="mylittlebutton wow fadeInUp" data-wow-delay="0.8s">Je découvre</a>
 		</div>
 		<div class="large-4 medium-12 small-12 columns garagenord sectionmenuiserie">
-			<h2>Garage Nord</h2>
-			<h3>Garage Nord</h3>
-			<p>m est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500, quand un peintre an</p>
-			<a href="http://localhost/lacoop/?page_id=64" class="mylittlebutton">Je découvre</a>
+			<h2 class="wow fadeInUp" data-wow-delay="0.4s">Garage Nord</h2>
+			<h3 >Garage Nord</h3>
+			<p class="wow fadeInUp" data-wow-delay="0.6s">m est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500, quand un peintre an</p>
+			<a href="http://localhost/lacoop/?page_id=64" class="mylittlebutton wow fadeInUp" data-wow-delay="0.8s">Je découvre</a>
 		</div>
 		<div class="large-4 medium-12 small-12 columns garagesud sectionmenuiserie">
-			<h2>Garage Sud</h2>
-			<h3>Garage Sud</h3>
-			<p>m est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500, quand un peintre an</p>
-			<a href="http://localhost/lacoop/?page_id=61" class="mylittlebutton">Je découvre</a>
+			<h2 class="wow fadeInUp" data-wow-delay="0.4s">Garage Sud</h2>
+			<h3 >Garage Sud</h3>
+			<p class="wow fadeInUp" data-wow-delay="0.6s">m est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500, quand un peintre an</p>
+			<a href="http://localhost/lacoop/?page_id=61" class="mylittlebutton wow fadeInUp" data-wow-delay="0.8s">Je découvre</a>
 		</div>
 	</div>
 </section>

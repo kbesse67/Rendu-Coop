@@ -10,7 +10,7 @@ get_header(); ?>
 </div>
 
 <div class="row expanded rowh1">
-		<h1><?php the_title() ?></h1>
+		<h1 class="wow fadeInLeft" data-wow-delay="0.4s "><?php the_title() ?></h1>
 </div>
 
 
@@ -29,18 +29,19 @@ get_header(); ?>
     while ( $wp_query->have_posts() ) :
     $wp_query->the_post(); ?>
 
-  <article class="large-4 large-offset-1 medium-8 medium-offset-2 small-10 small-offset-1 columns end ">
-    <div class="containerimgarticle">
-    <?php
-    if ( has_post_thumbnail() ) {
-      the_post_thumbnail();}
-    ?>
-    </div>
-    <h2><?php the_title(); ?></h2>
-    <h4><?php the_field('sous-titre'); ?></h4>
-    <p>
-       <?php the_excerpt(); ?>
-    </p>
+		<article class="large-4 large-offset-1 medium-8 medium-offset-2 small-10 small-offset-1 columns end wow fadeInUp" data-wow-delay="0.4s">
+			<div class="containerimgarticle wow fadeInUp" data-wow-delay="0.6s">
+
+			<?php
+			if ( has_post_thumbnail() ) {
+				the_post_thumbnail();}
+			?>
+
+			</div>
+			<h4 class="wow fadeInUp" data-wow-delay="0.8s"><?php the_title(); ?></h4>
+			<p class="wow fadeInUp" data-wow-delay="1s">
+					<?php the_excerpt(); ?>
+			</p>
 		<a href="<?php the_permalink(); ?>" class="mylittlebutton">Je découvre</a>
     <a href="<?php the_field('lien-facebook'); ?>"><img src="wp-content/themes/thcoop/assets/images/icons/facebook.png"></a>
     <a href="<?php the_field('lien-twitter'); ?>"><img src="wp-content/themes/thcoop/assets/images/icons/twitter.png"></a>

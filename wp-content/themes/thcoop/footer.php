@@ -16,7 +16,7 @@
 				<!-- Nav ARROW-->
 				<div class="row">
 					<div class="large-12 columns">
-								<a href="#" class="uparrow text-center">
+								<a href="#" class="uparrow text-center wow fadeInUp" data-wow-delay="0.4s">
 									<img src="wp-content/themes/thcoop/assets/images/footer/arrow.png" alt="arrow" />
 								</a>
 					</div>
@@ -24,7 +24,7 @@
 				<!-- Liens-->
 				<div class="row">
 					<div class="large-4 large-offset-4 columns ">
-						<h5 class="text-center">
+						<h5 class="text-center wow fadeInUp" data-wow-delay="0.4s">
 							<a href="http://localhost/lacoop/?page_id=40">Mentions légales</a>
 							- <a href="#">Cookie</a>
 							- <a href="#">Vie Privée</a>
@@ -36,16 +36,16 @@
 				<div class="row">
 					<div class="large-12 columns">
 						<ul class="text-center">
-							<li><img src="wp-content/themes/thcoop/assets/images/footer/googleplus.png" alt="Google" /></li>
-							<li><img   src="wp-content/themes/thcoop/assets/images/footer/facebook.png" alt="Facebook"/></li>
-							<li><img  src="wp-content/themes/thcoop/assets/images/footer/twitter.png" alt="Twitter"/></li>
+							<li><img src="wp-content/themes/thcoop/assets/images/footer/googleplus.png" alt="Google" class="wow fadeInUp" data-wow-delay="0.4s"/></li>
+							<li><img   src="wp-content/themes/thcoop/assets/images/footer/facebook.png" alt="Facebook" class="wow fadeInUp" data-wow-delay="0.5s"/></li>
+							<li><img  src="wp-content/themes/thcoop/assets/images/footer/twitter.png" alt="Twitter"/ class="wow fadeInUp" data-wow-delay="0.6s"></li>
 						</ul>
 					</div>
 				</div>
 				<!-- COPYRIGHT-->
 				<div class="row">
 					<div class="large-12 columns">
-						<h5 class="text-center">
+						<h5 class="text-center wow fadeInUp" data-wow-delay="1s">
 							Copyright - BESSE Kévin
 						</h5>
 					</div>
