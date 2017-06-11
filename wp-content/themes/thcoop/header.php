@@ -35,7 +35,7 @@
 		<img src="wp-content/themes/thcoop/assets/images/logo.png" alt="<?php bloginfo ?>" class="logocoop"></a>
 
 			<!-- ICON MENU -->
-			<div class="menu" onclick="openNav()">
+			<div class="menu wow fadeInLeft" onclick="openNav()">
 				<img src="wp-content/themes/thcoop/assets/images/menu.png" alt="" >
 			</div>
 			<!-- DRAPEAUX -->

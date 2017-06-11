@@ -39,6 +39,6 @@ jQuery(document).ready(function() {
     console.log("jQuery est prêt !");
   });
 
-
+ new WOW().init();
 
 });
