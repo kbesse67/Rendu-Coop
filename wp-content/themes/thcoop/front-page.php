@@ -26,7 +26,7 @@ get_header(); ?>
 	seront présentes dans la zone Coop</h2>
 
 
-				<a href="#" class="mybutton">Je découvre</a>
+				<a href="http://localhost/lacoop/?page_id=47" class="mybutton">Je découvre</a>
 			</div>
 			<div class="large-4 columns"></div>
 		</div>
@@ -120,7 +120,7 @@ get_header(); ?>
 			<h2>Menuiserie</h2>
 			<h3>Menuiserie</h3>
 			<p>m est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500, quand un peintre an</p>
-			<a href="<?php the_permalink(); ?>" class="mylittlebutton">Je découvre</a>
+			<a href="http://localhost/lacoop/?page_id=50" class="mylittlebutton">Je découvre</a>
 		</div>
 		<div class="large-4 medium-12 small-12 columns garagenord sectionmenuiserie">
 			<h2>Garage Nord</h2>
@@ -132,7 +132,7 @@ get_header(); ?>
 			<h2>Garage Sud</h2>
 			<h3>Garage Sud</h3>
 			<p>m est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500, quand un peintre an</p>
-			<a href="<?php the_permalink(); ?>" class="mylittlebutton">Je découvre</a>
+			<a href="http://localhost/lacoop/?page_id=50" class="mylittlebutton">Je découvre</a>
 		</div>
 	</div>
 </section>

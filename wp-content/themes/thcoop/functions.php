@@ -52,8 +52,8 @@ require_once( 'library/sticky-posts.php' );
 require_once( 'library/responsive-images.php' );
 
 /** Mon custom post type AGENDA */
-require_once( 'library/agenda.php' );
-/** Mon custom post type AGENDA */
+require_once( 'library/mycustomposttype.php' );
+
 
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */

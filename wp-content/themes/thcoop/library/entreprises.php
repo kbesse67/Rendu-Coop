@@ -5,7 +5,7 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
-
+ function cpt_init() {
  $labels = array(
  'name' => 'entreprise',
  'singular_name' => 'entreprise',
@@ -38,3 +38,4 @@
  );
  register_post_type('entreprise', $args );
  }
+ add_action('init', 'cpt_init');

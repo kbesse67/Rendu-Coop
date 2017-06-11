@@ -1,0 +1,29 @@
+.rowarticleentreprise {
+article {
+  .mylittlebutton {
+    margin-bottom:30px;
+  }
+  h2 {
+    margin-top:10px;
+  margin-bottom:10px;
+  }
+  h4 {
+    margin-top:10px;
+  }
+}
+}
+
+
+
+
+@include breakpoint(medium only) {
+
+}
+
+
+/*@media screen and (max-width: rem-calc(640)) */
+@include breakpoint(small only) {
+
+
+
+}

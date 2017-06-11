@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Dans Infrastructure
+Template Name: FABLAB
 */
 
 
